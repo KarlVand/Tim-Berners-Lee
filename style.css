@@ -3,6 +3,7 @@
 nav {
     background-color: #03182e;
     color: #fff;
+    
     width:auto;
     height: 55px;
     top: 0px;
@@ -54,7 +55,7 @@ p {
 }
 
 a {
-    color: #ffff;
+    
 
 }
 
@@ -65,3 +66,35 @@ img {
 section, nav, button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
+
+.breadcrumb {
+    display: inline-flex;
+    box-sizing: border-box;
+    height: 50px;
+    list-style: none;
+    text-indent: 1em;
+    
+} 
+
+li:before {
+    padding-right: 9%;
+    content: ">";
+    
+}
+
+
+.btn {
+    display: inline-flex;
+    box-sizing: border-box;
+    vertical-align: middle;
+    background-color: #fff;
+    color: blue;
+    border-radius: 10%;
+    font-size: large;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.icon {
+    height: 25px;
+}
