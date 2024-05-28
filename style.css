@@ -20,6 +20,10 @@ nav {
     height: 55px;
 }
 
+nav a {
+    top: 20px;
+}
+
 #logo, #browse, #dictionnaries, #quizzes, #money {
     position: relative;
     align-items: flex-start;
@@ -35,7 +39,7 @@ nav {
 }
 
 
-main {
+section {
     display:flex;
     justify-content: space-around;
     width: 45%;
@@ -60,7 +64,7 @@ article {
 }
 
 
-section {
+aside {
     position: relative;
     flex-basis: 40%;
     right: 0px;
@@ -72,7 +76,7 @@ section {
     width: 40%;
 }
 
-img {
+aside img {
     width: 236px;
 }
 
@@ -95,36 +99,42 @@ li:before {
     
 }
 
-.menu {
+menu {
     display: flex;
-    flex-basis: 60%;
     position: relative;
-    align-self: flex-start;
+    align-content: start;
+    left: -45px;
     
 }
 
-.btn-primary {
+button {
     position: relative; 
+    display: flex;
+    left: 0;
     background-color: #fff;
     color: blue;
-    border-radius: 10%;
+    border: 1px solid gray;
+    border-radius: 5px;
     font-size: large;
     padding-right: 10px;
-    padding-left: 0;
+    padding-top: 5px;
+    font-size: small;
+    margin-right: 5px;
+  
 }
 
 .icon {
     height: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
-.logo {
-    top: 25%;
-}
+
 
 .content {
     border: solid gray 1px;
     padding: 3% 5% 3% 5%;
-    border-radius: 10%;
+    border-radius: 10px;
     align-self: center;
 }
 
@@ -146,7 +156,8 @@ h2 {
 }
 
 legend {
-    font-size: 15px;
+    font-size: 0.75rem;
+    font-weight: 400;
     color: gray;
     
 }

@@ -30,6 +30,10 @@ To be honest, it didn't go as expected but yes, whatever is missing or misunders
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDZoNzZmZXVjOGZhZzFvemd0aXJsMm9hY3gzdG1hdXc1cTV3amVhOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/148x4ezZxvpIeA/giphy.gif)
 
 
-**PS:** mon responsive design ne response rien du tout !!!
+**PS:** mon responsive design ne response rien du tout !!! (message erreur dans VSC)
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTFkN2Z1dHp6NTRjNWx4MHBydzdwOTh1NWRpY29mZms2ODk2MXZ1MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/14fb6qSKwFLbGg/giphy.gif)
+
+**PPS:** un probleme de reglé 2 de crées...
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2tsNHZ0eTBocTBzOXprcjhpc3VoeWw1N3g2YjkxcnkxbHRkejdyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jquDWJfPUMCiI/giphy.gif)
