@@ -2,7 +2,7 @@
 
 
 body {
-    display: flex;
+    
     text-align: left;
     width: 100%;;
     display: grid;
@@ -21,15 +21,17 @@ nav {
 }
 
 #logo, #browse, #dictionnaries, #quizzes, #money {
+    position: relative;
     align-items: flex-start;
     padding-left: 15px;
     
 }
 
 #subscribe, #login {
-    align-items: flex-end;
+    position: relative;
+    align-content:end;
     justify-content: center;
-    padding-left: 15px;
+    left: 15px;
 }
 
 
@@ -93,17 +95,16 @@ li:before {
     
 }
 
-menu {
+.menu {
     display: flex;
+    flex-basis: 60%;
     position: relative;
     align-self: flex-start;
-    width: 40%;
+    
 }
 
 .btn-primary {
-    display: inline-flex;    
-    justify-content: center;
-    flex-basis: auto;
+    position: relative; 
     background-color: #fff;
     color: blue;
     border-radius: 10%;
@@ -116,10 +117,16 @@ menu {
     height: 25px;
 }
 
-#logo {
-    height: 50%;
+.logo {
+    top: 25%;
 }
 
+.content {
+    border: solid gray 1px;
+    padding: 3% 5% 3% 5%;
+    border-radius: 10%;
+    align-self: center;
+}
 
 /* TEXTS & FONTS */
 
@@ -136,6 +143,12 @@ h1 {
 h2 {
     font-size: 25px;
     font-weight: 200;
+}
+
+legend {
+    font-size: 15px;
+    color: gray;
+    
 }
 
 p {
@@ -176,10 +189,15 @@ section, nav, button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 
-@media only screen and (max-width: 600px) {
-    #logo {
+@media (max-width: 600px) {
+    
+    .nav__#logo {
         justify-self: center;
+        display: none;
     }
 
+    .nav__#login, #money, #quizzes, {
+        visibility: hidden;
+    }
 
 }
