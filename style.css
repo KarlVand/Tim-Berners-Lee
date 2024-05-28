@@ -33,8 +33,7 @@ nav a {
 
 #subscribe, #login {
     position: relative;
-    align-content:end;
-    justify-content: center;
+    align-content:flex-end;
     left: 15px;
 }
 
@@ -59,7 +58,6 @@ article {
     left: 0;
     align-content: flex-start;
     right: -50%;
-    width: 40%;
     padding: 25px;
 }
 
@@ -68,12 +66,11 @@ aside {
     position: relative;
     flex-basis: 40%;
     right: 0px;
-    top: 0;
+    top: 10%;
     right: 0;
-    bottom: 50%;
     border: solid 1px gray;
     padding: 25px;
-    width: 40%;
+   
 }
 
 aside img {
@@ -125,7 +122,7 @@ button {
 
 .icon {
     height: 25px;
-    padding-left: 10px;
+    padding-left:  5px;
     padding-right: 5px;
 }
 
@@ -200,7 +197,7 @@ section, nav, button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 
-@media (max-width: 600px) {
+@media screen (max-width: 600px) {
     
     .nav__#logo {
         justify-self: center;
