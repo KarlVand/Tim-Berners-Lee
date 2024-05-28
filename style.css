@@ -1,24 +1,37 @@
-
-
-nav {
-    background-color: #03182e;
-    color: #fff;
-    
-    width:auto;
-    height: 55px;
-    top: 0px;
-    
-}
+/* LAYOUT */
 
 
 body {
+    display: flex;
+    flex-direction: column;
     text-align: left;
     width: 100%;;
     display: grid;
 
 }
 
+nav {
+    display: flex;
+    background-color: #03182e;
+    background-position-y: top;
+    color: #fff;
+    width:100%;
+    height: 55px;
+    top: -10px;
+}
+
+#logo, #browse, #dictionnaries, #quizzes, #money {
+    align-items: flex-start;
+}
+
+#subscribe, #login {
+    align-items: flex-end;
+}
+
+
 main {
+    display:flex;
+    justify-content: space-around;
     width: 45%;
     border: solid 1px gray;
     padding: 25px;
@@ -28,44 +41,34 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+article {
+    position: relative;
+    flex-basis: 55%;
+    left: 0;
+    align-content: flex-start;
+    right: -50%;
+    width: 40%;
+    padding: 25px;
+}
+
+
 section {
     position: relative;
-    align-content:right;
+    flex-basis: 40%;
+    right: 0px;
+    top: 0;
+    right: 0;
+    bottom: 50%;
     border: solid 1px gray;
     padding: 25px;
-    width: 30%;
-}
-
-h1 {
-    font-size: 40px;
-    margin: 0;
-    
-}
-
-h2 {
-    font-size: 25px;
-    font-weight: 200;
-    margin-top:  0;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400;
     width: 40%;
-}
-
-a {
-    
-
 }
 
 img {
     width: 236px;
 }
 
-section, nav, button {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} 
+/* MENUS */
 
 .breadcrumb {
     display: inline-flex;
@@ -83,10 +86,11 @@ li:before {
 }
 
 
-.btn {
+.btn-primary {
     display: inline-flex;
     box-sizing: border-box;
     vertical-align: middle;
+    flex-basis: auto;
     background-color: #fff;
     color: blue;
     border-radius: 10%;
@@ -98,3 +102,41 @@ li:before {
 .icon {
     height: 25px;
 }
+
+
+/* TEXTS & FONTS */
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 200;
+    margin-top:  0;
+}
+
+.p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none; 
+    color: blue;
+}
+
+#browse, #dictionnaries, #quizzes, #money, #login {
+    text-decoration: none; 
+    color: #fff;
+    padding-left: 1%;
+}
+
+
+section, nav, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
